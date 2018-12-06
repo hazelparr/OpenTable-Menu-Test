@@ -36,7 +36,7 @@ This restaurant unfortunately has a number of rules about the meals that can be 
 - An error message is displayed when I try to select an invalid menu combination.
 
 
-## Install
-
-npm install
+## How to Run
+* Install dependencies: npm install 
+* To start development server: npm start
 
