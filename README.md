@@ -36,8 +36,7 @@ This restaurant unfortunately has a number of rules about the meals that can be 
 - An error message is displayed when I try to select an invalid menu combination.
 
 
-## Submission
+## Install
 
-Please submit your program either by sending a zip file or by providing a link to a repository, dropbox, etc to your point of contact at OpenTable.
-
+npm install
 
