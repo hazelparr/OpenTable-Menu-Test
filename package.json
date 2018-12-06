@@ -4,7 +4,8 @@
   "description": "A small scaffold application for building ot-menu",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack-dev-server --mode development --open",
+    "test": "mocha --require ignore-styles --require @babel/register --require src/test/setup.js src/**/*.test.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,11 +15,26 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.1.0",
-    "@babel/core": "^7.1.0",
+    "@babel/core": "^7.2.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.2",
+    "chai": "^4.2.0",
+    "css-loader": "^1.0.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "ignore-styles": "^5.0.1",
+    "image-webpack-loader": "^4.5.0",
+    "jest": "^23.6.0",
+    "mocha": "^5.2.0",
+    "regenerator-runtime": "^0.13.1",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.9"

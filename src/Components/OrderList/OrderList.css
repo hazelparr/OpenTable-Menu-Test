@@ -1,0 +1,48 @@
+.Orderlist {
+  display: flex;
+  flex-direction: column;
+  
+  overflow-y: scroll;
+  width: 50%;
+  max-height: 1250px;
+  padding: 0.88rem;
+  background-color: #f4f3ea;
+  box-shadow: 0 4px 2px 2px #000000;
+}
+
+.Orderlist h2 {
+  margin-top: 10px;
+}
+
+
+
+.Orderlist h3: {
+  align-items: left;
+}
+
+.Orderlist-save {
+  cursor: pointer;
+  width: 10rem;
+  padding: .77rem 0;
+  border-radius: 54px;
+  margin-top: 1.27rem;
+  background-color: #cca353;
+  text-align: center;
+  font-size: .83rem;
+  transition: background-color .25s;
+}
+
+.Orderlist-save:hover {
+  background-color: rgba(108, 65, 233, .7);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 1020px) {
+  .Orderlist {
+    width: 90%;
+  }
+}

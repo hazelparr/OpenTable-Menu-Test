@@ -7,9 +7,24 @@ const htmlPlugin = new HtmlWebPackPlugin({
 });
 
 module.exports = {
-  entry: ['./src/App.js'],
+  entry: ['./src/Components/App/App.js'],
   module: {
     rules: [
+      { test: /\.css$/, use: [ 'style-loader', 'css-loader' ]},
+      
+      {
+        test: /\.(png|jp(e*)g|svg)$/,  
+        use: [
+          {
+            loader: 'url-loader',
+                options: { 
+                    limit: 8000, // Convert images < 8kb to base64 strings
+                    name: 'images/[hash]-[name].[ext]'
+                } 
+          }
+        ]
+      },
+
       {
         test: /\.js?$/,
         exclude: /node_modules/,
