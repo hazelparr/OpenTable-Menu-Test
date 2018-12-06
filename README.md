@@ -4,22 +4,16 @@ OpenTable front-end coding challenge
 
 ## The task
 
-We would like you to build a web application.
+
 - The application will allow one user to select dishes on behalf of two diners.
 - The application will present a menu that will be provided and may later require adjustment by a restaurant.
 - The application will enforce some restrictions provided by the restaurant. (see [#rules](#rules))
-
-We have prepared a basic application structure for you using React and Webpack. Please add any additional libraries that you think are suitable, for example for CSS and testing.
-
-The menu data is provided in `menu-data.json` and the application is in `src/App.js`.
-
-Please write as clean and maintainable code as possible, and make sure that it's covered by test cases.
 
 
 ## Rules
 
 
-_To recap, you will build an interface that allows a user to select dishes for a fixed party of **two diners**._\
+The interface will allow a user to select dishes for a fixed party of **two diners**._\
 This restaurant unfortunately has a number of rules about the meals that can be ordered.
 
 - Each person must have at least two courses, one of which must be a main.
