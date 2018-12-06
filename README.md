@@ -39,4 +39,4 @@ This restaurant unfortunately has a number of rules about the meals that can be 
 ## How to Run
 * Install dependencies: npm install 
 * To start development server: npm start
-
+* To run test cases: npm test
