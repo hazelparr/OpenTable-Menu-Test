@@ -1,8 +1,6 @@
 OpenTable front-end coding challenge
 ====================================
 
-Thank you for accepting our coding challenge. Please take as much time as required to give us a good indication of your coding strengths, as your application will provide many topics of conversation in the next interview stage.
-
 
 ## The task
 
